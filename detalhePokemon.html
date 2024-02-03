@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>Pokedex Detalhe</title>
 
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -24,16 +23,17 @@
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <h1>Pokedex - Detalhe</h1>
 
-        <ol id="pokemonList" class="pokemons">
+        <div id="pokemonDetalhe" class="pokemons-detalhe">
             <!-- ..... Pokemons here ..... -->
-        </ol>
+
+        </div>
 
         <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
+            <a href="index.html" target="_self">
+                <button> Return</button>
+            </a>
         </div>
     </section>
 
@@ -41,7 +41,6 @@
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/detalhe.js"></script>
-    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
